@@ -1,1 +1,95 @@
-atah
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+        }
+        .header {
+            background-color: #131921;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            justify-content: space-between;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .search-bar input[type="text"] {
+            padding: 8px;
+            width: 300px;
+        }
+        .search-bar input[type="submit"] {
+            padding: 8px;
+            background-color: orange;
+            border: none;
+            cursor: pointer;
+        }
+        .nav {
+            background-color: #232f3e;
+            padding: 10px;
+            display: flex;
+            gap: 20px;
+            color: white;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+        }
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+            justify-content: center;
+        }
+        .product {
+            background-color: white;
+            padding: 15px;
+            border: 1px solid #ddd;
+            width: 200px;
+            text-align: center;
+        }
+        .product button {
+            background-color: orange;
+            border: none;
+            padding: 10px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        .footer {
+            background-color: #131921;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="logo">Amazon Clone</div>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search products...">
+            <input type="submit" value="Search" onclick="searchProducts()">
+        </div>
+        <div>
+            <a href="#" style="color:white; margin-right:15px;">Sign In</a>
+            <a href="#" style="color:white;">Cart</a>
+        </div>
+    </div>
+
+    <div class="nav">
+        <a href="#">Home</a>
+        <a href="Untitled-1.html">Deals</a>
+        <a href="Untitled-2.html">Categories</a>
+        <a href="Untitled-3.html">Orders</a>
+    </div>
